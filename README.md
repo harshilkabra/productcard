@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://harshilkabra.github.io/productcard/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-product-card-using-grid-and-flexbox-NaGI24uzlI]
+- Live Site URL: [https://harshilkabra.github.io/productcard/]
 
 ### Built with
 
