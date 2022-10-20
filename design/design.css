@@ -42,13 +42,14 @@ p {
   background-color: white;
   border-radius: 1rem;
   height: 47.5rem;
+  box-shadow: 0 0 20rem rgba(33, 33, 33, 0.3);
 }
 
 .product-image-mobile {
   display: none; /*Hiding the mobile image*/
 }
 
-.product-image {
+.product-image-desktop {
   height: 47.5rem;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
@@ -120,6 +121,12 @@ button:focus {
   background-color: hsl(158, 41%, 20%);
   font-weight: 500;
   border: 0;
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+button:hover {
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 button img {
@@ -149,7 +156,7 @@ button img {
     border-top-right-radius: 1em;
   }
 
-  .product-image {
+  .product-image-desktop {
     display: none; /*Hiding the desktop image*/
   }
 
